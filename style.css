@@ -1,0 +1,24 @@
+body{
+    margin: 2rem;
+    width: 30rem;
+}
+header{
+    height: 2.5rem;
+    border: 1px solid black
+}
+nav{
+    height: 2.5 rem;
+    margin-top: 1 rem;
+    border: 1px solid black;
+}
+main{
+    margin-top: 1 rem;
+    height: 10rem;
+}
+article {
+    display: inline-block;
+    margin-right: 1 rem;
+    width: 20rem;
+    height: 100%;
+    border: 1px solid black 
+}

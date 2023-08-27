@@ -1,24 +1,79 @@
-body{
-    margin: 2rem;
-    width: 30rem;
+body {
+    display: flex;
+    flex-direction: column;
+    width; 30rem;
+    min-height: 100vh;
 }
-header{
+header {
+    padding: 60px;
+    text-align: center;
+    background: burlywood;
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: .5rem;
+}
+
+header img {
+    float: left;
+    margin-right: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: r;
+    min-height: 8vh;
+    background-color: teal;
+    font-family:" Montserrat", sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 1.75rem;
+
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 1.75rem;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    margin-top: 1rem;
+    background: burlywood;
+    color: aliceblue;
+
+}
+
+article {
+    flex-grow: 1;
+    margin-right: 1rem;
+    border: 1px solid black;
+    overflow-y: auto;
+    background: burlywood;
+    color: aliceblue;
+}
+
+aside {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 10rem;
+    border: 1px solid black;
+    background: burlywood
+    color: aliceblue
+}
+
+footer {
     height: 2.5rem;
-    border: 1px solid black
-}
-nav{
-    height: 2.5 rem;
     margin-top: 1 rem;
     border: 1px solid black;
+    background: burlywood;
+    color: aliceblue;
 }
-main{
-    margin-top: 1 rem;
-    height: 10rem;
-}
-article {
-    display: inline-block;
-    margin-right: 1 rem;
-    width: 20rem;
-    height: 100%;
-    border: 1px solid black 
-}
+
+
+
+
+

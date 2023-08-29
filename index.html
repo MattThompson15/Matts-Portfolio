@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>Matt Thompson</title>
 </head>
+
 <body>
+   <!--Header-section-->
     <header>
-        <img src="IMG_0575.jpeg" height= 400px width= 400px alt="Me">
-            <h1>Matt Thompson</h1>
-            <h3>Welcome to my Portfolio</h3>
+        <img src="IMG_0575.jpeg" width="175" height="175">
+        <h1>Matt Thompson</h1>
+        <h2>Welcome to my Portfolio Webpage</h2>
     </header>
-     <nav>
+    <!--Portfolio navigation menu-->
+    <nav>
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="contactme.html">Contact Me</a></li>
-            <li><a href="skills.html">Skills</a></li>
+            <li>
+                <a href=#home.html>Home</a>
+            </li>
+            <li>
+                 <a href="#about-me">About Me</a>
+            </li>
+            <li>
+                 <a href="#work">Work</a>
+            </li>
+            <li>
+                <a href="#resume">Resume</a>
+            </li>
+            <li>
+                <a href="#contact-me">Contact Me</a>
+            </li>
         </ul>
     </nav>
+    <!--Main content-->
     <main>
+       <!--subsection of main content-->
         <article>
-            <h2>About Me</h2>
-             <p>Hi, I'm Matt Thompson.  I am currently studying at UNB to become a fullstack web-develper</p>
-            <h2>Work</h2>
-                <ul>
-                    <li><a href="http://github.com/MattThompson15/Horiseon-code-refactor">Refactoring Code.</a> Using proper html and CSS semnatic structure,ensuring that the websites code<br> was more accessible, while maintaining its functionality.</li>
-                    <li><a href="https://github.com/MattThompson15/javascript-password-generator">Radom Password Generator</a> Using JavaScript, built a random password generator encompassing<br> various criteria that had to be met.</li>
-                </ul>
-            <h2>Skills</h2>
-                <ul>
-                    <li>html</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-         </article>
-         <aside>
-            <img src="IMG_0072.JPG" height= 400px width= 400px alt="Playing soccer">
-         </aside>
+            <h3 id="about-me">About Me</h3>
+                <p> Hi! I'm Matt.  I'm from Fredericton, New Brunswick, Canada, and am currently studying coding and web development at UNB.<br>Outside of coding I enjoy fitness, reading, watching films, and travelling.</p>
+            
+                <h3 id="work">Work</h3>
+                 <p>Currently nothing to show in this industry.  Look forward to updating soon!</p>
+            
+                 <h3 id="resume">Resume</h3>
+                <p> Recently completed projects:</p>
+                    <ul>
+                        <li><a href="https://github.com/MattThompson15/Horiseon-code-refactor">Horiseon-code-refactor</a>Refactored html and CSS code to make website more accesible</li>
+                        <li><a href="https://github.com/MattThompson15/javascript-password-generator">JavaScript-Password-Generator</a>Created a random password generator using JavaScript</li>
+                    </ul>
+        </article>
+       <!--image for aside section-->
+        <aside>
+            <img src="IMG_0072.JPG" width="200" height="200" alt="Playing soccer for St. Thomas University">
+            <img src="IMG_0294.JPG" width="175" height="175">
+        </aside>
     </main>
+    <!--footer section-->
+   
     <footer>
-        <h2>Contact Me</h2>
-            <a href="https://github.com/MattThompson15">Github</a><br>
-            <a href="mailto: matthewthompson118@gmail.com">Send Email</a>
+        <h3 id="contact-me">Contact Me</h3>
+        <a href="https://github.com/MattThompson15/">Github</a>
+        <a href="mailto: matthewthompson118@gmail.com">Send Email</a>
+
     </footer>
- </body>
+</body>
 </html>
